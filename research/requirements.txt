@@ -1,0 +1,14 @@
+# Common libraries used across the supplied research notebooks.
+# A few notebooks originated in Google Colab and may need path/input adjustments locally.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+statsmodels>=0.14
+scikit-learn>=1.3
+arch>=6.0
+xgboost>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+openpyxl>=3.1
+joblib>=1.3
+tensorflow>=2.15

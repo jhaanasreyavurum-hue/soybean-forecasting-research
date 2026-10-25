@@ -1,0 +1,7 @@
+market,model,frequency,AIC,BIC,vs_naive
+Indore,"ARIMA(2,1,3)",Daily,48711.7,48748.7,Beats naive (DM squared loss p=0.0002); no sig. diff on absolute loss
+Indore,"SARIMA(2,1,2)x(1,0,1,6)",Daily,48722.9,48766.0,Beats naive (DM squared p=0.0002); same as ARIMA (p=0.64)
+Gondal,"ARIMA(0,1,2)",Daily,46273.9,46292.4,No sig. diff on squared loss (p=0.17); naive better on absolute loss (p=0.0001)
+Gondal,"SARIMA(0,1,2)x(0,0,0,6)",Daily,46273.9,46292.4,Identical to ARIMA (no seasonal terms selected)
+Indore,"ARIMAX(0,1,3)",Monthly,2030.8,2054.2,Worse than naive (DM p=0.052)
+Indore,"SARIMAX (0,1,1,12)",Monthly,,,Worse than naive (DM p=0.030)

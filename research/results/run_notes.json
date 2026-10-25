@@ -1,0 +1,98 @@
+[
+  {
+    "market": "Indore",
+    "weekly_rows_after_alignment": 648,
+    "first_week": "2011-01-21",
+    "last_week": "2026-01-02",
+    "train_rows": 518,
+    "test_rows": 130,
+    "split_date": "2023-01-27",
+    "oil_price_median": 71.21674999999999,
+    "oil_unit_warning": "Oil units/source not independently verified; do not state INR conversion without FX data."
+  },
+  {
+    "market": "Indore",
+    "model": "ARCHX (ARX mean + ARCH(1) variance)",
+    "converged": true,
+    "n_train": 518,
+    "params": {
+      "Const": 0.05033575712679173,
+      "mark...ret[1]": 0.07053441952007929,
+      "oil_logret_lag1": 2.950352478546408,
+      "omega": 8.975854072615924,
+      "alpha[1]": 1.0,
+      "nu": 2.9599722304970513
+    }
+  },
+  {
+    "market": "Indore",
+    "model": "LSTM (price-only)",
+    "lookback_weeks": 12,
+    "epochs_requested": 60,
+    "epochs_run": 26,
+    "features": [
+      "market_logret"
+    ],
+    "n_train_sequences": 506
+  },
+  {
+    "market": "Indore",
+    "model": "LSTM-X (lagged crude oil)",
+    "lookback_weeks": 12,
+    "epochs_requested": 60,
+    "epochs_run": 13,
+    "features": [
+      "market_logret",
+      "oil_logret_lag1"
+    ],
+    "n_train_sequences": 506
+  },
+  {
+    "market": "Gondal",
+    "weekly_rows_after_alignment": 650,
+    "first_week": "2011-01-21",
+    "last_week": "2026-01-02",
+    "train_rows": 520,
+    "test_rows": 130,
+    "split_date": "2023-01-27",
+    "oil_price_median": 71.21674999999999,
+    "oil_unit_warning": "Oil units/source not independently verified; do not state INR conversion without FX data."
+  },
+  {
+    "market": "Gondal",
+    "model": "ARCHX (ARX mean + ARCH(1) variance)",
+    "converged": true,
+    "n_train": 520,
+    "params": {
+      "Const": 0.04915841143835128,
+      "mark...ret[1]": 0.03607055151241647,
+      "oil_logret_lag1": 3.5926914444737537,
+      "omega": 15.51566986200321,
+      "alpha[1]": 0.4365244477557018,
+      "nu": 3.016112963456696
+    }
+  },
+  {
+    "market": "Gondal",
+    "model": "LSTM (price-only)",
+    "lookback_weeks": 12,
+    "epochs_requested": 60,
+    "epochs_run": 9,
+    "features": [
+      "market_logret"
+    ],
+    "n_train_sequences": 508
+  },
+  {
+    "market": "Gondal",
+    "model": "LSTM-X (lagged crude oil)",
+    "lookback_weeks": 12,
+    "epochs_requested": 60,
+    "epochs_run": 9,
+    "features": [
+      "market_logret",
+      "oil_logret_lag1"
+    ],
+    "n_train_sequences": 508
+  }
+]

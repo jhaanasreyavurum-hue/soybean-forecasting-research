@@ -1,0 +1,3 @@
+market,model,coverage_95,mean_width
+Indore,"ARIMA(2,1,3)",89.5,989.2
+Gondal,"ARIMA(0,1,2)",99.1,758.4

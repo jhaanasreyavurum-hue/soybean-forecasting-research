@@ -1,0 +1,7 @@
+variant,test_rmse
+Full model (ARIMAX),289.4
+− crude,289.9
+− Indore arrivals,280.8
+− Gondal arrivals,290.7
+− harvest dummy,304.1
+No exogenous (ARIMA),284.8

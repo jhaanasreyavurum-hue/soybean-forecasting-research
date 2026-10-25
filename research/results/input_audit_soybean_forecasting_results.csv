@@ -1,0 +1,4 @@
+series,raw_rows,duplicate_date_rows_aggregated,first_date,last_date,unique_daily_dates,unit,raw_valid_rows,observed_min,observed_median,observed_max
+Indore,4386.0,0,2011-01-01,2025-12-31,4386,INR/quintal (assumed from Agmarknet modal price),,,,
+Gondal,4354.0,0,2011-01-03,2025-12-31,4354,INR/quintal (assumed from Agmarknet modal price),,,,
+crude_oil,,0,2011-01-03,2026-10-21,3334,UNVERIFIED; values resemble USD/barrel but must be confirmed from source,3334.0,20.83,72.745,119.78

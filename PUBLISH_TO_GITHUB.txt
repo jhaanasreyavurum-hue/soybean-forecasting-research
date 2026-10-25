@@ -1,0 +1,42 @@
+PUBLISH THIS PROJECT TO YOUR GITHUB ACCOUNT
+============================================
+
+Option A — Recommended (VS Code + Git)
+
+1. Extract soybean-forecasting-research.zip.
+2. Open the extracted soybean-forecasting-research folder in VS Code.
+3. In a browser, sign in at https://github.com/new
+4. Repository name: soybean-forecasting-research
+5. Choose Public only if you have permission to share all included datasets; otherwise choose Private.
+6. Leave “Add a README”, .gitignore, and license unselected; this folder already has a README and .gitignore.
+7. Click Create repository. Copy the HTTPS URL GitHub shows. It should resemble:
+   https://github.com/YOUR-USERNAME/soybean-forecasting-research.git
+8. In the VS Code terminal, run these commands one at a time from the project folder:
+
+   git init
+   git branch -M main
+   git add .
+   git status
+   git commit -m "Add soybean forecasting research and dashboard"
+   git remote add origin https://github.com/YOUR-USERNAME/soybean-forecasting-research.git
+   git push -u origin main
+
+9. Replace YOUR-USERNAME with your real GitHub username before running the remote command.
+10. Sign in/authorize when GitHub or Git asks you to.
+
+If Git requests your identity before committing, configure it once using your own details:
+   git config --global user.name "Your Name"
+   git config --global user.email "your-email@example.com"
+Then repeat the commit command.
+
+If “remote origin already exists” appears, run:
+   git remote set-url origin https://github.com/YOUR-USERNAME/soybean-forecasting-research.git
+Then push again.
+
+IMPORTANT
+- Do not upload passwords, tokens, private credentials, or data you do not have permission to redistribute.
+- The repository contains nested source ZIPs and extracted copies of their results/figures so the submitted supporting files are retained.
+- The app dashboard labels one market “Gondal”, while some of your research filenames say “Rajkot”. Verify the market label/mapping before presenting the results as the same market.
+
+Option B — Create the repo in GitHub's website
+Open https://github.com/new and follow steps 4–7 above. Use Option A's commands to upload the folder.

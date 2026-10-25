@@ -1,0 +1,21 @@
+track,market,model,rmse,mae,mape,naive_rmse,source,naive_mae,naive_mape
+Daily · ARIMA family,Indore,"ARIMA(2,1,3)",383.589,213.422,5.557,438.746,Soybean_ARIMA_SARIMA_Indore_Gondal,223.581,5.695
+Daily · ARIMA family,Indore,"SARIMA(2,1,2)x(1,0,1,6)",384.21,212.074,5.528,438.746,Soybean_ARIMA_SARIMA_Indore_Gondal,223.581,5.695
+Daily · ARIMA family,Gondal,"ARIMA(0,1,2)",100.202,62.372,1.459,106.179,Soybean_ARIMA_SARIMA_Indore_Gondal,56.299,1.314
+Daily · ML regressors,Indore,Linear Regression,375.336,206.755,,438.433,soybean_price_prediction_indore,222.76,
+Daily · ML regressors,Indore,Random Forest,379.655,224.639,,438.433,soybean_price_prediction_indore,222.76,
+Daily · ML regressors,Indore,XGBoost,380.51,225.905,,438.433,soybean_price_prediction_indore,222.76,
+Daily · ML regressors,Gondal,Linear Regression,119.857,80.24,,107.158,soybean_price_prediction_rajkot,57.22,
+Daily · ML regressors,Gondal,Random Forest,115.382,81.137,,107.158,soybean_price_prediction_rajkot,57.22,
+Daily · ML regressors,Gondal,XGBoost,127.849,91.914,,107.158,soybean_price_prediction_rajkot,57.22,
+Monthly · ARIMAX / VAR,Indore,VAR (levels),284.4,228.4,5.2,230.2,soybean_arimax_sarimax_executed,172.0,3.9
+Monthly · ARIMAX / VAR,Indore,ARIMAX,289.4,223.3,5.1,230.2,soybean_arimax_sarimax_executed,172.0,3.9
+Monthly · ARIMAX / VAR,Indore,VECM,292.1,240.9,5.5,230.2,soybean_arimax_sarimax_executed,172.0,3.9
+Monthly · ARIMAX / VAR,Indore,VAR (differenced),300.7,245.7,5.6,230.2,soybean_arimax_sarimax_executed,172.0,3.9
+Monthly · ARIMAX / VAR,Indore,SARIMAX,348.8,289.4,6.6,230.2,soybean_arimax_sarimax_executed,172.0,3.9
+Weekly · ARCHX / LSTM,Indore,ARCHX,203.38044068005215,147.6351522876095,3.3847317266835244,203.2944961864438,soybean_archx_lstm_project,147.27598827838824,3.376023343825989
+Weekly · ARCHX / LSTM,Indore,LSTM (price-only),201.60119557163756,146.9369197675408,3.367400770847057,203.2944961864438,soybean_archx_lstm_project,147.27598827838824,3.376023343825989
+Weekly · ARCHX / LSTM,Indore,LSTM-X,204.1078649214269,147.98970531956058,3.3922499241560287,203.2944961864438,soybean_archx_lstm_project,147.27598827838824,3.376023343825989
+Weekly · ARCHX / LSTM,Gondal,ARCHX,116.06773850701654,82.65833762654594,1.935473818110272,116.05686350336768,soybean_archx_lstm_project,81.925,1.9192697566339052
+Weekly · ARCHX / LSTM,Gondal,LSTM (price-only),116.03860755156347,82.26690881769173,1.92713596608698,116.05686350336768,soybean_archx_lstm_project,81.925,1.9192697566339052
+Weekly · ARCHX / LSTM,Gondal,LSTM-X,116.85387843626314,82.27726757118818,1.9283048504473936,116.05686350336768,soybean_archx_lstm_project,81.925,1.9192697566339052

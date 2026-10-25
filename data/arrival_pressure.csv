@@ -1,0 +1,5 @@
+quartile,mean_pct,median_pct,months
+Q1 low,0.03,-1.11,44
+Q2,0.01,-0.52,43
+Q3,-1.82,-0.86,43
+Q4 high,4.54,3.59,44
