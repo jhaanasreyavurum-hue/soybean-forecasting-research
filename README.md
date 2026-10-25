@@ -95,3 +95,11 @@ The repository includes notebook outputs and stored dashboard results for inspec
 ## License
 
 No license is declared. Unless a license is added, others should not assume they have permission to reuse or redistribute the code or data. Confirm that you have permission to publish the included data before making this repository public.
+
+## 🚀 Live Dashboard
+
+Explore the interactive soybean forecasting dashboard:
+
+[Open Soybean Forecasting Dashboard](https://soybean-forecasting-research-bpxfuqjvpmhpyogg2egml4.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://soybean-forecasting-research-bpxfuqjvpmhpyogg2egml4.streamlit.app/)
